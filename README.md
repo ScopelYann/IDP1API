@@ -4,7 +4,7 @@ Back-end da aplicação **EcoViewer**, uma biblioteca digital de plantas que for
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 O servidor é responsável por intermediar a comunicação entre o front-end e a API Perenual. Ele recebe as requisições, consulta a API externa, processa o retorno e devolve um JSON limpo e estruturado com as informações relevantes de cada planta — nome comum, nome científico, família botânica, imagens e categoria e muitas outras coisas.
 
@@ -14,7 +14,7 @@ O banco de dados **PostgreSQL** é utilizado para persistência local de dados, 
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia | Função |
 |---|---|
@@ -26,6 +26,6 @@ O banco de dados **PostgreSQL** é utilizado para persistência local de dados, 
 
 ---
 
-## 🗂️ Estrutura de Pastas
+## Estrutura de Pastas
 
 O projeto segue o padrão arquitetural **MVC (Model - View - Controller)**, separando as responsabilidades em camadas bem definidas:
