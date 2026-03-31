@@ -1,0 +1,24 @@
+{
+  "name": "ecv1api",
+  "version": "1.0.0",
+  "description": "Back-end da aplicação **EcoViewer**, uma biblioteca digital de plantas que fornece informações botânicas detalhadas ao front-end, consumindo e tratando dados da API externa [Perenual](https://perenual.com/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScopelYann/ECV1API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ScopelYann/ECV1API/issues"
+  },
+  "homepage": "https://github.com/ScopelYann/ECV1API#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
