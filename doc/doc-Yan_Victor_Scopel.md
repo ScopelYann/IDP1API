@@ -59,7 +59,7 @@ Qualquer detalhe adicional relevante:
 - 
 - 
 
-
+-------------------------------------------------------------------------------------------------------------
 
 
 ## LOG 2
@@ -79,19 +79,7 @@ Qualquer detalhe adicional relevante:
 
 Descreva o que foi feito de forma objetiva:
 
-- Instalação das ferramentas que vão ser usadas para o desenvolvimento, por enquanto foram apenas ferramentas basicas, (NodeJS, typescript):
-    **COMANDOS USADOS**
-    *npm init -y* - Cria o package.json e permite a usabilidade do nodejs
-    *npm install -D typescript ts-node-dev @types/node* - Instalar TypeScript e ferramentas básicas
-    *npx tsc --init* Gerar o tsconfig.json
-    *npm run dev* - roda o projeto
-    *npm run build* - Build
-    *npm start* - Build
-    *npm install express*
-
-- Criação da estrutura de pastas denominadas MVC, dividindo responsabilidade e facilitando a visualização do fluxo da aplicação, e também facilitando a busca por erros futuros.
-
-- Criação e definição de responsabilidades de cada desenvolvedor em um README e também a criação de um README para descrever o que foi e implementado no Sistema.
+- Criação da Lógica do sistema, definição da estrutura de retorno para o front end, pastas: controllers, routes, services e arquivos app, server.ts, plant.controller, plant.service, plant.routes foram implementados, junto de seus respectivos códigos.
 
 
 ---
@@ -100,7 +88,7 @@ Descreva o que foi feito de forma objetiva:
 
 Liste problemas reais (isso é MUITO importante para avaliação):
 
-- Criatividade
+- Erros Variados no sistema e alternancia de responsabilidade para maior eficiência em grupo.
 
 ---
 
@@ -108,7 +96,8 @@ Liste problemas reais (isso é MUITO importante para avaliação):
 
 Explique como isso contribui para o sistema (Back-end / Front-end):
 
-- Organização e Comunicação descente com o time, além de uma divisão que deixa as coisas fluindo rapido.
+- Coração da Aplicação, com os sistemas implementados já se é possivel o front end retornar algo visual acessando a rota
+get_plant/:page, essas implementações permitem a aplicação o seu funcionamento, melhorias em breve implementando um banco de dados, para armazenas as pesquisas de plantas, sem a necessidade de buscar à API toda vez.
  
 
 ---
