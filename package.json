@@ -4,7 +4,8 @@
   "description": "Back-end da aplicação **EcoViewer**, uma biblioteca digital de plantas que fornece informações botânicas detalhadas ao front-end, consumindo e tratando dados da API externa [Perenual](https://perenual.com/).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -13,12 +14,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/ScopelYann/ECV1API/issues"
   },
   "homepage": "https://github.com/ScopelYann/ECV1API#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "http-status-code": "^2.1.0",
+    "status-code-enum": "^1.0.0",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "ts-node-dev": "^2.0.0"
   }
 }
